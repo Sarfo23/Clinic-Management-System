@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolclinicmanagementsystem.HomepageController">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: ORANGE;" HBox.hgrow="ALWAYS">
+         <children>
+            <Pane layoutX="1.0" layoutY="1.0" prefHeight="191.0" prefWidth="300.0">
+               <children>
+                  <ImageView fitHeight="151.0" fitWidth="180.0" layoutX="69.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/hospital-clinic-plus-logo-7916383C7A-seeklogo.com.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="butnew" layoutY="192.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="302.0" style="-fx-background-color: TRANSPARENT;" text="ADD NEW PATIENT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/pngtree-hospital-scene-cardiologist-doctor-examining-patient-heart-disease-png-image_4368977.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="butdiagnosis" layoutY="266.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="302.0" style="-fx-background-color: TRANSPARENT;" text="DIAGNOSIS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/pngtree-the-doctor-examines-the-patient-with-covid-19-symptoms-png-image_2171886.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="butinfo" layoutY="428.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="302.0" style="-fx-background-color: TRANSPARENT;" text="CLINIC INFORMATION" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/istockphoto-1225898954-170667a.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="butlogout" layoutY="500.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="302.0" style="-fx-background-color: TRANSPARENT;" text="LOGOUT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/pngtree-logout-vector-icon-png-image_702520.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="151.0" fitWidth="302.0" layoutY="591.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/ktu_logo1.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="butnsearch" layoutX="8.0" layoutY="364.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="286.0" style="-fx-background-color: TRANSPARENT;" text="SEARCH PATIENT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="48.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/pngtree-vector-search-icon-png-image_316867.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #32a897;" HBox.hgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="570.0" fitWidth="720.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/hybrid_clinic_2_copy-12846-1.jpg" />
+               </image>
+               <effect>
+                  <GaussianBlur />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="131.0" fitWidth="209.0" layoutX="2.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/51683004203_e73f05bc45_o.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="131.0" fitWidth="207.0" layoutX="199.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/m-physicians-broadway-family-medicine-clinic-14-1200x812-compact.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="131.0" fitWidth="321.0" layoutX="393.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/SafetySeal.jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="116.0" layoutY="290.0" prefHeight="108.0" prefWidth="485.0" text="WELCOME TO KTU CLINIC" textFill="#7f87fc">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="260.0" text="HOMEPAGE" textFill="ORANGE">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
