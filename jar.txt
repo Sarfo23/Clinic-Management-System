@@ -1,0 +1,29 @@
+CREATE TABLE `ktu_school_clinic_management_system`.`diagnosis` (
+  `patient_id` INT NOT NULL AUTO_INCREMENT,
+  `patient_name` VARCHAR(45) NOT NULL,
+  `blood_group` VARCHAR(45) NOT NULL,
+  `body_temperature` VARCHAR(45) NOT NULL,
+  `sick_of` VARCHAR(45) NOT NULL,
+  `any_previous_disease_suffered` VARCHAR(45) NOT NULL,
+  `drugs_administered` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`patient_id`));
+
+
+CREATE TABLE `ktu_school_clinic_management_system`.`new_patient` (
+  `patient_id` INT NOT NULL AUTO_INCREMENT,
+  `patient_name` VARCHAR(45) NOT NULL,
+  `contact_number` VARCHAR(45) NOT NULL,
+  `age` VARCHAR(45) NOT NULL,
+  `gender` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`patient_id`));
+
+
+CREATE TABLE `ktu_school_clinic_management_system`.`users` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `firstname` VARCHAR(45) NOT NULL,
+  `lastname` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `telephone_number` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
